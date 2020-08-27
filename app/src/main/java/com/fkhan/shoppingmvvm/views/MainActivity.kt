@@ -1,4 +1,4 @@
-package com.fkhan.shoppingmvvm
+package com.fkhan.shoppingmvvm.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +14,5 @@ class MainActivity : AppCompatActivity() {
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mainBinding.root)
 
-        mainBinding.txt.text = "this is shopping cart demo, yay!"
     }
 }
